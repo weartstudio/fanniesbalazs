@@ -1,13 +1,14 @@
-import Header from './components/Header'
-import Timeline from './components/Timeline/Timeline'
-import Separator from './components/Separator';
-import VideoImg from './components/VideoImg';
-import Footer from './components/Footer';
+import Header from "@/components/Header"
+import Timeline from "@/components/Timeline/Timeline"
+import Separator from "@/components/Separator"
+import Footer from "@/components/Footer"
+import VideoImg from "@/components/VideoImg"
 import { IoIosImages } from "react-icons/io";
 
-export default function App() {
+export default function Home() {
   return (
     <>
+
       <Header />
       <Timeline />
 
@@ -44,6 +45,13 @@ export default function App() {
             url="https://www.youtube.com/watch?v=JgWmC9r6vd8"
             >
             Nászúton Jordániában
+          </VideoImg>
+
+          <VideoImg
+            img="https://img.youtube.com/vi/kA44WF50NYY/mqdefault.jpg"
+            url="https://www.youtube.com/watch?v=kA44WF50NYY"
+            >
+            Egy nap milánóban
           </VideoImg>
 
           <VideoImg
@@ -84,4 +92,3 @@ export default function App() {
     </>
   )
 }
-
